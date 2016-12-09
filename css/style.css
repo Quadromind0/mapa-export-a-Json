@@ -1,0 +1,88 @@
+/*propiedades creadas para el logo de la ujat*/
+#ujat{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 20%;
+    height: 90px;
+    position: inherit;
+        
+}
+
+/*título de la página "Mapa Interactivo"*/
+#titulo{
+    font-family: 'Oswald', sans-serif; /*Fuente tomada de Google Fonts*/
+    text-align: Center;
+    font-size: 40px;  
+    top: 0px;
+    
+}
+/*Características visuales del mapa*/
+#map {
+  height: 350px; /*Altura del mapa en pixeles*/
+  border-style: solid; /*Se agregó un border de tipo sólido*/
+  border-width: thick; /*Con una anchura grande*/
+  border-color: black; /*El borde es color negro*/
+ 
+}
+
+/*En el cuerpo de la página se utiliza un fondo desde la siguiente dirección url*/
+body{
+    background-image: url("http://blu-alliance.com/wp-content/uploads/2013/10/background-world-map-white.jpg");
+    background-attachment: fixed; /*el adjuntado es de tipo fijo*/
+    margin: 0px;
+    
+}
+
+
+/*"Crea una dirección nueva"*/
+#subtitulo{
+    font-family: "Oswald", sans-serif;
+    text-align: left;
+    font-size: 25px;
+    
+}
+/*"Marcadores"*/
+#marcadores{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+   color: #555555;
+}
+/*Estilo otorgado para las etiquetas utilizadas en nombre, descripción, lat y long*/
+label{
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    color: #555555;
+    
+}
+
+.pull-right{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    
+    
+    
+}
+
+.pull-center{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    
+    
+}
+
+
+/*Pie de página*/
+.footer{
+   
+    padding: 0;
+    position: inherit;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    font-family: "Oswald", sans-serif;
+    
+    }
+
